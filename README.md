@@ -1,3 +1,18 @@
+Создайте компонент ProductCard, который принимает следующие данные через props:
+
+- Название товара (title)
+- Страна происхождения (origin)
+- Цена в копейках (price = 34900) и валюта (RUB, USD, EUR)
+- Изображение товара (imageUrl)
+
+Отобразите эти данные с корректным форматированием цены (через Intl.NumberFormat).
+
+Компонент должен быть адаптивным (на ширине < 500px — в одну колонку).
+Используйте React + TypeScript. Стилизация любая.
+
+npm i
+npm run dev
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
