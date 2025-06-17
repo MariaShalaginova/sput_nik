@@ -11,6 +11,7 @@
 Используйте React + TypeScript. Стилизация любая.
 
 npm i
+
 npm run dev
 
 # React + TypeScript + Vite
