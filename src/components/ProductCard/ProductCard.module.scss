@@ -1,0 +1,36 @@
+.productCard {
+  display: flex;
+  border: 1px solid #87bbf8;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 5px;
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__origin {
+    font-size: 1.2rem;
+    color: #94b5c5;
+  }
+
+  &__price {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
